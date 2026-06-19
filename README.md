@@ -1,5 +1,4 @@
 <div align="center">
-  <img src="public/favicon.ico" alt="JSON-IQ Logo" width="80" height="80" />
   <h1 align="center">JSON-IQ</h1>
   <p align="center">
     <strong>The next-generation, AI-powered JSON developer toolkit.</strong>
