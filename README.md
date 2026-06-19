@@ -4,6 +4,9 @@
   <p align="center">
     <strong>The next-generation, AI-powered JSON developer toolkit.</strong>
   </p>
+  <p align="center">
+    <i>See the <a href="./LAUNCH_KIT.md">Launch Kit</a> for submission details and portfolio copy.</i>
+  </p>
 </div>
 
 <br/>
