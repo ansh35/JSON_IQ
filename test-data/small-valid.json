@@ -1,0 +1,14 @@
+{
+  "id": "USR-001",
+  "name": "Ansh Khare",
+  "role": "Admin",
+  "isActive": true,
+  "preferences": {
+    "theme": "dark",
+    "notifications": true
+  },
+  "tags": [
+    "developer",
+    "tester"
+  ]
+}

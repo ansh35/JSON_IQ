@@ -1,0 +1,8 @@
+{
+  "name": "Testing Invalid JSON",
+  "missing_comma": true
+  "trailing_comma": [1, 2, 3,], // Error: trailing comma
+  unquoted_key: "value", /* Error: missing quotes on key */
+  "missing_bracket": [1, 2, 3,
+  "unexpected": 'single quotes' // Error: single quotes
+}

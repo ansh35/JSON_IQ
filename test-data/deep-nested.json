@@ -1,0 +1,80 @@
+{
+  "level_1": {
+    "child": {
+      "level_2": [
+        {
+          "level_3": {
+            "child": {
+              "level_4": [
+                {
+                  "level_5": {
+                    "child": {
+                      "level_6": [
+                        {
+                          "level_7": {
+                            "child": {
+                              "level_8": [
+                                {
+                                  "level_9": {
+                                    "child": {
+                                      "level_10": [
+                                        {
+                                          "level_11": {
+                                            "child": {
+                                              "level_12": [
+                                                {
+                                                  "level_13": {
+                                                    "child": {
+                                                      "level_14": [
+                                                        {
+                                                          "value": "level 15"
+                                                        },
+                                                        {
+                                                          "meta": true
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                },
+                                                {
+                                                  "meta": true
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "meta": true
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                {
+                                  "meta": true
+                                }
+                              ]
+                            }
+                          }
+                        },
+                        {
+                          "meta": true
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "meta": true
+                }
+              ]
+            }
+          }
+        },
+        {
+          "meta": true
+        }
+      ]
+    }
+  }
+}

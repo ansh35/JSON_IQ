@@ -1,0 +1,42 @@
+{
+  "project": "JSON-IQ",
+  "description": "A developer tool for parsing, formatting, and analyzing JSON payloads.",
+  "status": "active",
+  
+  "features": [
+    {
+      "id": 1,
+      "name": "Formatter",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Minifier",
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "AI Analyzer",
+      "active": true
+    }
+  ],
+  
+  "configuration": {
+    "theme": "dark",
+    "editor": "monaco",
+    "fontSize": 14,
+    "wordWrap": "on",
+    
+    "advanced": {
+        "telemetry": false,
+        "autoSave": true,
+        "formatOnPaste": true
+    }
+  },
+  
+  "meta": {
+      "author": "Digital Hero",
+      "license": "MIT",
+      "repository": "https://github.com/digitalhero/json-iq"
+  }
+}
