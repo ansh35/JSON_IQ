@@ -6,7 +6,7 @@ import { EditorArea } from "@/components/EditorArea";
 import { OutputArea } from "@/components/OutputArea";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
-import { Sparkles, Code2 } from "lucide-react";
+import { Code2 } from "lucide-react";
 import Link from "next/link";
 
 const DEFAULT_JSON = `{\n  "hello": "world",\n  "features": [\n    "Validation",\n    "Formatting",\n    "AI Analysis"\n  ]\n}`;
@@ -144,26 +144,6 @@ export default function Home() {
           </div>
           <span className="font-bold text-sm tracking-tight text-white">JSON-IQ</span>
         </Link>
-
-        {/* Trial Submission Floating Element */}
-        <a
-          href="https://digitalheroesco.com"
-          target="_blank"
-          rel="noreferrer"
-          className="fixed top-6 right-6 z-50 group flex items-center gap-4 bg-black/80 backdrop-blur-xl border border-white/20 p-4 pr-6 rounded-2xl shadow-[0_0_30px_rgba(168,85,247,0.3)] hover:shadow-[0_0_40px_rgba(168,85,247,0.5)] transition-all hover:scale-105 active:scale-95 hover:border-primary/60 text-left"
-        >
-          <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-violet-500 to-fuchsia-500 flex items-center justify-center shadow-inner flex-shrink-0">
-            <Sparkles className="w-7 h-7 text-white" />
-          </div>
-          <div className="flex flex-col min-w-[160px]">
-            <span className="text-[10px] uppercase tracking-wider text-primary font-bold mb-1">Trial Submission</span>
-            <span className="text-base font-black text-white leading-tight mb-0.5 tracking-wide">Ansh Khare</span>
-            <span className="text-sm font-semibold text-white/90 leading-tight mb-2">khareansh075@gmail.com</span>
-            <div className="inline-flex items-center text-[11px] font-bold text-primary/80 uppercase tracking-widest group-hover:text-primary transition-colors">
-              Built for Digital Heroes <span className="ml-1 group-hover:translate-x-1 transition-transform">&rarr;</span>
-            </div>
-          </div>
-        </a>
 
         <Hero />
 
